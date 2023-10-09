@@ -19,6 +19,16 @@ Initialize node on the project directory:
 # Implementing Multicasting
 1. Build the server.js for multicasting
 2. Build the client.js for multicasting
+
+# Running code:
+1. Execute Server:
+```
+node Server
+```
+2. Execute Client:
+```
+node Client
+```
    
 # Building Docker Server
 1. Build server:
