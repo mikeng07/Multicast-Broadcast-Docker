@@ -1,13 +1,7 @@
 FROM node:18
 
-WORKDIR /app
+WORKDIR /app/client
 
-COPY package.json ./
+COPY ./client.js ./
 
-COPY ./server.js ./
-
-RUN npm install
-
-EXPOSE 3001
-
-CMD [ "npm", "start" ]
+CMD ["node", "client.js"]
