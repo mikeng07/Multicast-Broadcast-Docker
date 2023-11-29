@@ -56,3 +56,6 @@ docker run --network project client1 && run --network project client2 && docker 
 docker stop server
 docker rm server
 ```
+
+7. Testing
+Using Docker Testing
